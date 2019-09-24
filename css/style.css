@@ -1971,7 +1971,7 @@ button.buy_now_btn i {
         flex-direction: column;
         margin: 0 0 20px 0;
     }
-    .menu_flx ul.nav.navbar-nav li.open {
+    .menu_flx ul.nav.navbar-nav>li.open:nth-last-child(1) {
         flex-direction: column;
         width: 100%;
     }
