@@ -2152,5 +2152,8 @@ button.buy_now_btn i {
     .reports_wrpr {
         margin: 0 0 10px 0;
     }
+    .flx_form .form_wrpr:nth-child(1) {
+        border: none;
+    }
 }
 @media screen and (max-width:375px) {}
