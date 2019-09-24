@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    // $('.more_cat').click(function() {
+    //     $('.more_cat_icon').toggleClass('hidden');
+    // })
     $('.mega_menu_icon').hover(function() {
         $('.mega_menu').toggleClass('d_none');
         $('.mega_menu').toggleClass('add_show');
