@@ -1608,7 +1608,15 @@ button.buy_now_btn:hover {
 button.buy_now_btn i {
     margin: 0 10px 0 0;
 }
-
+.menu_flx ul.nav.navbar-nav li i.fa-minus {
+    display: none;
+}
+.menu_flx ul.nav.navbar-nav li.open i.fa-plus {
+    display: none;
+}
+.menu_flx ul.nav.navbar-nav li.open i.fa-minus {
+    display: block;
+}
 /*report page*/
 
 @media only screen and (min-width: 1600px) {
