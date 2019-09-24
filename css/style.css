@@ -2096,5 +2096,14 @@ button.buy_now_btn i {
     .tab-content .carousel {
         min-height: 1px;
     }
+    .tab-content>.tab-pane>p,
+    .tab-content>.tab-pane>ul li {
+        text-align: justify;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .tab-content>.tab-pane {
+        padding: 0 10px;
+    }
 }
 @media screen and (max-width:375px) {}
