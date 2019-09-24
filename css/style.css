@@ -2261,5 +2261,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     section.get_in_touch .flx_mod .flx_col .img_wrpr img {
         max-width: 100px;
     }
+    section.get_in_touch .flx_mod .flx_col .img_wrpr {
+        padding: 10px 10px 10px 0;
+    }
 }
 @media screen and (max-width:375px) {}
