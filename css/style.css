@@ -1950,7 +1950,7 @@ button.buy_now_btn i {
     }
     .banner_hover_icon {
         position: relative;
-        bottom: 50px;
+        bottom: 20px;
     }
     .banner_icon_flx {
         -webkit-box-orient: vertical;
@@ -1972,8 +1972,10 @@ button.buy_now_btn i {
     }
     .banner_heading_wrpr h4.banner_subtitle {
         font-size: 2.5vw;
-        line-height: 2.7vw;
-        margin: 5px 0 0 0;
+        line-height: 3vw;
+        margin: 2px 0 0 0;
+        width: 50%;
+        color: #fff;
     }
     .banner_img_wrpr {
         margin: 0;
