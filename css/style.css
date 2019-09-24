@@ -1,8 +1,5 @@
 /*Common CSS START*/
-
-
 /*@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');*/
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 body {
     margin: 0;
@@ -11,9 +8,7 @@ body {
     color: #212121;
     background-color: #f6f6f6;
 }
-
 /*font - icon start*/
-
 @font-face {
     font-family: 'deshu';
     src: url('../fonts/deshu.eot?xkwizu');
@@ -93,9 +88,7 @@ body {
 .deshu-phone-hang-up:before {
     content: "\e943";
 }
-
 /*font - icon end*/
-
 .menu_flx ul.nav.navbar-nav li {
     display: flex;
     align-items: center;
@@ -141,9 +134,7 @@ a {
 .slick_heading {
     text-align: center;
 }
-
 /*mega menu*/
-
 div.mega_menu {
     width: 100%;
     background-color: #49274a;
@@ -249,12 +240,8 @@ a.animate_decoration:focus {
 .menu_flx ul.nav.navbar-nav li.dropdown ul.dropdown-menu li:nth-last-child(1) {
     border-radius: 0 0 4px 4px;
 }
-
 /*mega menu*/
-
-
 /* Header Start*/
-
 section.top_header {
     background-color: #012c73;
     padding: 0;
@@ -411,9 +398,7 @@ div#myNavbar {
 .menu_flx ul.nav.navbar-nav li:hover {
     background-color: #5e0661;
 }
-
 /*header end*/
-
 section.banner_section {
     position: relative;
 }
@@ -658,11 +643,9 @@ button.bannr_btn:hover {
 section.tab_section {
     position: relative;
     background-color: #fff;
-    padding: 50px 0;
+    padding: 50px 0 10px;
 }
-
 /* tab section*/
-
 section.tab_section .tab-content {
     padding: 10px 10px 20px;
     border: 2px solid #f6f6f6;
@@ -903,9 +886,7 @@ section.reports>.container>.row {
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
-
 /* tab section*/
-
 .reports_wrpr .title_wrpr {
     width: 100%;
     background-color: #012c73;
@@ -1370,9 +1351,7 @@ i.menu_icon.remove {
 .banner_icon_flx .banner_col>img {
     width: 36px;
 }
-
 /*report page*/
-
 .rep_pg_wrpr>.flx_mod>.flx_col {
     width: 100%;
     padding: 0 8px;
@@ -1613,7 +1592,88 @@ button.buy_now_btn i {
     display: none;
 }
 /*report page*/
-
+/*get in touch*/
+section.get_in_touch {
+    background-color: #fff;
+    position: relative;
+    padding: 10px 0;
+}
+section.get_in_touch .flx_mod {
+    flex-direction: column;
+}
+section.get_in_touch .flx_mod .flx_col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+section.get_in_touch .flx_mod .flx_col .img_wrpr {
+    padding: 10px;
+}
+section.get_in_touch .flx_mod .flx_col .img_wrpr img {
+    max-width: 150px;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info {
+    width: 100%;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info hr {
+    margin: 10px 0;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info h4 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    margin: 0;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info a {
+    display: block;
+    margin: 0 0 5px 0;
+}
+section.get_in_touch .flx_mod .flx_col .emp_info a i {
+    margin: 0 20px 0 0;
+}
+.input_wpr {
+    width: 100%;
+}
+.input_wpr input,
+.input_wpr textarea {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    margin: 0 0 10px 0;
+    padding: 0 15px;
+    font-size: 14px;
+    outline: none;
+    transition: all .4s linear;
+    border: 1px solid #333;
+}
+.input_wpr input::placeholder,
+.input_wpr textarea::placeholder {
+    font-size: 12px;
+    color: #ababab;
+}
+.input_wpr input.sub_btn {
+    max-width: 150px;
+    line-height: 50px;
+    background-color: #080b42;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.input_wpr input.sub_btn:hover {
+    background-color: transparent;
+    color: #080b42;
+}
+/*get in touch*/
 @media only screen and (min-width: 1600px) {
     .container {
         width: calc(100vw - 20vw);
@@ -2197,6 +2257,9 @@ button.buy_now_btn i {
     section.tab_section .tab-content>.tab-pane {
         padding: 0 5px;
         border: none;
+    }
+    section.get_in_touch .flx_mod .flx_col .img_wrpr img {
+        max-width: 100px;
     }
 }
 @media screen and (max-width:375px) {}
