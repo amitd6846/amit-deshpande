@@ -2182,5 +2182,21 @@ button.buy_now_btn i {
     input.newsL_input::placeholder {
         text-align: center;
     }
+    section.about_us,
+    section.tab_section,
+    section.reports,
+    section.blog {
+        padding: 5px 0;
+    }
+    .heading_after {
+        margin: 0 0 10px;
+    }
+    section.tab_section div.carousel {
+        padding: 0;
+    }
+    section.tab_section .tab-content>.tab-pane {
+        padding: 0 5px;
+        border: none;
+    }
 }
 @media screen and (max-width:375px) {}
