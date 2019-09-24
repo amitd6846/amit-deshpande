@@ -1611,10 +1611,12 @@ button.buy_now_btn i {
 .menu_flx ul.nav.navbar-nav li i.fa-minus {
     display: none;
 }
-.menu_flx ul.nav.navbar-nav li.open i.fa-plus {
+.menu_flx ul.nav.navbar-nav li.open i.fa-plus,
+.menu_flx ul.nav.navbar-nav li:hover i.fa-plus {
     display: none;
 }
-.menu_flx ul.nav.navbar-nav li.open i.fa-minus {
+.menu_flx ul.nav.navbar-nav li.open i.fa-minus,
+.menu_flx ul.nav.navbar-nav li:hover i.fa-minus {
     display: block;
 }
 /*report page*/
