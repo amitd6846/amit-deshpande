@@ -1608,6 +1608,16 @@ button.buy_now_btn:hover {
 button.buy_now_btn i {
     margin: 0 10px 0 0;
 }
+.more_cat i.fa-plus {
+    display: block;
+}
+.more_cat.open i.fa-plus,
+.more_cat i.fa-minus {
+    display: none;
+}
+.more_cat.open i.fa-minus {
+    display: block;
+}
 /*report page*/
 
 @media only screen and (min-width: 1600px) {
@@ -2144,16 +2154,6 @@ button.buy_now_btn i {
     }
     div#blog_slider .report_div p {
         margin: 0;
-    }
-    .more_cat i.fa-plus {
-        display: block;
-    }
-    .more_cat.open i.fa-plus,
-    .more_cat i.fa-minus {
-        display: none;
-    }
-    .more_cat.open i.fa-minus {
-        display: block;
     }
     section.menu {
         padding: 0;
