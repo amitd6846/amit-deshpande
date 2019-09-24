@@ -2123,5 +2123,30 @@ button.buy_now_btn i {
         width: 50%;
         transition: all .4s linear;
     }
+    .report_div h4 a,
+    .report_details h4 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .report_details p,
+    .report_div>p {
+        line-height: 18px;
+        height: calc(18px * 2);
+        overflow: hidden;
+        font-size: 12px;
+    }
+    p.date {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    p.month,
+    p.year {
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .report_wrpr {
+        align-items: center;
+    }
 }
 @media screen and (max-width:375px) {}
