@@ -2105,5 +2105,23 @@ button.buy_now_btn i {
     .tab-content>.tab-pane {
         padding: 0 10px;
     }
+    ul.nav-tabs.tab_nav {
+        padding: 0 0px;
+    }
+    ul.nav-tabs.tab_nav>li>a {
+        font-size: 11px;
+        transform: scale(.9) translate(0px, 0px);
+        text-align: center;
+        transition: all .4s linear;
+    }
+    ul.nav-tabs.tab_nav>li.active>a {
+        transform: scalex(1);
+        font-size: 12px;
+        line-height: 35px;
+    }
+    ul.nav-tabs.tab_nav>li {
+        width: 50%;
+        transition: all .4s linear;
+    }
 }
 @media screen and (max-width:375px) {}
