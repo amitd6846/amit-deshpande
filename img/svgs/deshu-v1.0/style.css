@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'deshu';
+  src:  url('fonts/deshu.eot?xkwizu');
+  src:  url('fonts/deshu.eot?xkwizu#iefix') format('embedded-opentype'),
+    url('fonts/deshu.ttf?xkwizu') format('truetype'),
+    url('fonts/deshu.woff?xkwizu') format('woff'),
+    url('fonts/deshu.svg?xkwizu#deshu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="deshu-"], [class*=" deshu-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'deshu' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.deshu-fruit:before {
+  content: "\e900";
+}
+.deshu-analysis:before {
+  content: "\e901";
+}
+.deshu-building:before {
+  content: "\e902";
+}
+.deshu-chart:before {
+  content: "\e903";
+}
+.deshu-consumer-behavior:before {
+  content: "\e904";
+}
+.deshu-diagram:before {
+  content: "\e905";
+}
+.deshu-flask:before {
+  content: "\e906";
+}
+.deshu-heartbeat:before {
+  content: "\e907";
+}
+.deshu-integrated-circuit:before {
+  content: "\e908";
+}
+.deshu-laptop:before {
+  content: "\e909";
+}
+.deshu-petrol:before {
+  content: "\e90a";
+}
+.deshu-renewable-energy:before {
+  content: "\e90b";
+}
+.deshu-shield:before {
+  content: "\e90c";
+}
+.deshu-speedometer:before {
+  content: "\e90d";
+}
+.deshu-tractor:before {
+  content: "\e90e";
+}
+.deshu-worldwide:before {
+  content: "\e90f";
+}
+.deshu-wrench:before {
+  content: "\e910";
+}
+.deshu-phone:before {
+  content: "\e942";
+}
+.deshu-phone-hang-up:before {
+  content: "\e943";
+}

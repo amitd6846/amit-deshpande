@@ -1,0 +1,18 @@
+@media screen and (max-width:1024px) {
+    /*//Common css for all devices*/
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    /*//Common css for tab devices both landscape view and portrate  view*/
+}
+@media screen and (max-width:991px) {}
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*//css for tab devices portrate view only*/
+}
+@media screen and (max-width:767px) {
+    /*//Common css for mobile devices both landscape view and portrate view*/
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+    /*//css for tab devices landscape view only*/
+}
+@media screen and (max-width:480px) {}
+@media screen and (max-width:375px) {}
