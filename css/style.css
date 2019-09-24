@@ -971,14 +971,14 @@ p.date {
     padding: 0 0 0 20px;
 }
 .report_details h4 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
-    position: relative;
     margin: 0;
     height: 40px;
     overflow: hidden;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
 }
 .report_details p {
     font-size: 14px;
