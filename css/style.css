@@ -2175,5 +2175,8 @@ button.buy_now_btn i {
     .menu_flx ul.nav.navbar-nav li.dropdown ul.dropdown-menu {
         width: 100%;
     }
+    input.newsL_input::placeholder {
+        text-align: center;
+    }
 }
 @media screen and (max-width:375px) {}
