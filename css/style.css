@@ -2056,5 +2056,8 @@ button.buy_now_btn i {
     .menu_flx ul.nav.navbar-nav li.more_cat a {
         padding: 0 20px 0 40px;
     }
+    .tab-content .carousel {
+        min-height: 1px;
+    }
 }
 @media screen and (max-width:375px) {}
