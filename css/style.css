@@ -2125,8 +2125,9 @@ button.buy_now_btn i {
     }
     .report_div h4 a,
     .report_details h4 {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
+        line-height: 18px;
     }
     .report_details p,
     .report_div>p {
