@@ -2149,5 +2149,8 @@ button.buy_now_btn i {
     .report_wrpr {
         align-items: center;
     }
+    .reports_wrpr {
+        margin: 0 0 10px 0;
+    }
 }
 @media screen and (max-width:375px) {}
