@@ -1,5 +1,8 @@
 /*Common CSS START*/
+
+
 /*@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');*/
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 body {
     margin: 0;
@@ -8,7 +11,9 @@ body {
     color: #212121;
     background-color: #f6f6f6;
 }
+
 /*font - icon start*/
+
 @font-face {
     font-family: 'deshu';
     src: url('../fonts/deshu.eot?xkwizu');
@@ -17,8 +22,7 @@ body {
     font-style: normal;
     font-display: block;
 }
-[class^="deshu-"],
-[class*=" deshu-"] {
+[class^="deshu-"], [class*=" deshu-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'deshu' !important;
     speak: none;
@@ -88,7 +92,9 @@ body {
 .deshu-phone-hang-up:before {
     content: "\e943";
 }
+
 /*font - icon end*/
+
 .menu_flx ul.nav.navbar-nav li {
     display: flex;
     align-items: center;
@@ -134,7 +140,9 @@ a {
 .slick_heading {
     text-align: center;
 }
+
 /*mega menu*/
+
 div.mega_menu {
     width: 100%;
     background-color: #49274a;
@@ -158,8 +166,7 @@ a.animate_decoration {
     background-size: 0% 1px;
     transition: background-size .5s linear;
 }
-a.animate_decoration:hover,
-a.animate_decoration:focus {
+a.animate_decoration:hover, a.animate_decoration:focus {
     background-size: 100% 1px;
 }
 .mega_flx {
@@ -240,8 +247,12 @@ a.animate_decoration:focus {
 .menu_flx ul.nav.navbar-nav li.dropdown ul.dropdown-menu li:nth-last-child(1) {
     border-radius: 0 0 4px 4px;
 }
+
 /*mega menu*/
+
+
 /* Header Start*/
+
 section.top_header {
     background-color: #012c73;
     padding: 0;
@@ -398,7 +409,9 @@ div#myNavbar {
 .menu_flx ul.nav.navbar-nav li:hover {
     background-color: #5e0661;
 }
+
 /*header end*/
+
 section.banner_section {
     position: relative;
 }
@@ -469,7 +482,7 @@ section.banner_section {
 }
 section.about_us {
     position: relative;
-    padding: 50px 0;
+    padding: 10px 0 20px;
 }
 .heading_after {
     text-align: center;
@@ -578,8 +591,7 @@ body {
     border-radius: 50px;
     margin: auto;
 }
-.about_icon .about_col:nth-child(1),
-.about_icon .about_col:nth-last-child(1) {
+.about_icon .about_col:nth-child(1), .about_icon .about_col:nth-last-child(1) {
     margin: 0 0 0 0;
 }
 .banner_heading_wrpr {
@@ -645,7 +657,9 @@ section.tab_section {
     background-color: #fff;
     padding: 50px 0 10px;
 }
+
 /* tab section*/
+
 section.tab_section .tab-content {
     padding: 10px 10px 20px;
     border: 2px solid #f6f6f6;
@@ -759,12 +773,13 @@ section.reports_header:after {
 .zero_gutters .col-md-9 {
     padding-left: 0;
 }
-.report_div h4 {
+.report_div h4, .report_details h4 {
     font-size: 14px;
     line-height: 18px;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
     position: relative;
+    color: #333;
 }
 .report_div h4 a {
     color: #333;
@@ -886,7 +901,9 @@ section.reports>.container>.row {
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
+
 /* tab section*/
+
 .reports_wrpr .title_wrpr {
     width: 100%;
     background-color: #012c73;
@@ -904,7 +921,7 @@ section.reports>.container>.row {
 }
 section.reports {
     position: relative;
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #fff;
 }
 .rep_main {
@@ -913,9 +930,7 @@ section.reports {
 .report_wrpr {
     position: relative;
     padding: 5px 0;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: center;
 }
 .date_wrpr {
     width: 50%;
@@ -923,15 +938,14 @@ section.reports {
     border-radius: 8px;
     position: relative;
 }
-p.month,
-p.year {
+p.month, p.year {
     margin: 0;
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 20px;
     background-color: #012c73;
     color: #fff;
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 p.month {
@@ -943,8 +957,8 @@ p.year {
 p.date {
     text-align: center;
     font-size: 26px;
-    line-height: 40px;
-    font-weight: 900;
+    line-height: 30px;
+    font-weight: 700;
     color: #fff;
     margin: 0;
 }
@@ -955,10 +969,6 @@ p.date {
     margin: 0;
     height: 40px;
     overflow: hidden;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 700;
-    text-transform: capitalize;
     position: relative;
 }
 .report_details p {
@@ -997,7 +1007,7 @@ p.date {
 }
 section.blog {
     position: relative;
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #fff;
 }
 div#blog_slider .report_div {
@@ -1351,7 +1361,9 @@ i.menu_icon.remove {
 .banner_icon_flx .banner_col>img {
     width: 36px;
 }
+
 /*report page*/
+
 .rep_pg_wrpr>.flx_mod>.flx_col {
     width: 100%;
     padding: 0 8px;
@@ -1412,8 +1424,7 @@ p.radio {
     background-color: #012c73;
     color: #fff;
 }
-.radio_wrpr input[type=radio],
-.radio_wrpr input[type=radio]+span {
+.radio_wrpr input[type=radio], .radio_wrpr input[type=radio]+span {
     cursor: pointer;
 }
 .radio_wrpr input[type=radio]:focus {
@@ -1447,8 +1458,7 @@ button.btn_rprt:hover {
     background-color: #333;
     color: #fff;
 }
-ul.details li,
-ul.sub_details li {
+ul.details li, ul.sub_details li {
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -1502,8 +1512,7 @@ ul.sub_details li {
 .flx_form form.form_wrpr .form_div {
     margin: 0 0 10px 0;
 }
-.flx_form form.form_wrpr .form_div input,
-.flx_form form.form_wrpr .form_div textarea {
+.flx_form form.form_wrpr .form_div input, .flx_form form.form_wrpr .form_div textarea {
     border-radius: 0;
     box-shadow: none;
     height: auto;
@@ -1513,8 +1522,7 @@ ul.sub_details li {
     transition: all .4s linear;
     border: 1px solid #333;
 }
-.flx_form form.form_wrpr .form_div input::placeholder,
-.flx_form form.form_wrpr .form_div textarea::placeholder {
+.flx_form form.form_wrpr .form_div input::placeholder, .flx_form form.form_wrpr .form_div textarea::placeholder {
     color: #333;
     font-size: 12px;
 }
@@ -1587,12 +1595,15 @@ button.buy_now_btn:hover {
 button.buy_now_btn i {
     margin: 0 10px 0 0;
 }
-.more_cat i.fa-plus,
-.more_cat i.fa-minus {
+.more_cat i.fa-plus, .more_cat i.fa-minus {
     display: none;
 }
+
 /*report page*/
+
+
 /*get in touch*/
+
 section.get_in_touch {
     background-color: #fff;
     position: relative;
@@ -1642,8 +1653,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
 .input_wpr {
     width: 100%;
 }
-.input_wpr input,
-.input_wpr textarea {
+.input_wpr input, .input_wpr textarea {
     width: 100%;
     height: auto;
     line-height: 40px;
@@ -1654,8 +1664,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     transition: all .4s linear;
     border: 1px solid #333;
 }
-.input_wpr input::placeholder,
-.input_wpr textarea::placeholder {
+.input_wpr input::placeholder, .input_wpr textarea::placeholder {
     font-size: 12px;
     color: #ababab;
 }
@@ -1673,7 +1682,9 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     background-color: transparent;
     color: #080b42;
 }
+
 /*get in touch*/
+
 @media only screen and (min-width: 1600px) {
     .container {
         width: calc(100vw - 20vw);
@@ -1704,10 +1715,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         line-height: 50px;
         font-weight: bold;
     }
-    section.about_us,
-    section.tab_section,
-    section.reports,
-    section.blog {
+    section.about_us, section.tab_section, section.reports, section.blog {
         padding: 10px 0 20px;
     }
 }
@@ -1959,8 +1967,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         font-weight: 400;
         line-height: 21px;
     }
-    .zero_gutters .col-md-3,
-    .zero_gutters .col-md-9 {
+    .zero_gutters .col-md-3, .zero_gutters .col-md-9 {
         padding: 0;
     }
     .footer_flx .flx_dCol {
@@ -2109,8 +2116,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .flx_form .form_wrpr {
         width: 100%;
     }
-    .flx_form .form_wrpr:nth-child(1),
-    .flx_form .form_wrpr:nth-child(2) {
+    .flx_form .form_wrpr:nth-child(1), .flx_form .form_wrpr:nth-child(2) {
         padding: 10px;
     }
     ul.flx_mod li {
@@ -2141,8 +2147,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .tab-content .carousel {
         min-height: 1px;
     }
-    .tab-content>.tab-pane>p,
-    .tab-content>.tab-pane>ul li {
+    .tab-content>.tab-pane>p, .tab-content>.tab-pane>ul li {
         text-align: justify;
         font-size: 13px;
         line-height: 20px;
@@ -2168,14 +2173,12 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         width: 50%;
         transition: all .4s linear;
     }
-    .report_div h4 a,
-    .report_details h4 {
+    .report_div h4 a, .report_details h4 {
         font-size: 13px;
         font-weight: 600;
         line-height: 18px;
     }
-    .report_details p,
-    .report_div>p {
+    .report_details p, .report_div>p {
         line-height: 18px;
         height: calc(18px * 2);
         overflow: hidden;
@@ -2186,8 +2189,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         line-height: 30px;
         font-weight: 600;
     }
-    p.month,
-    p.year {
+    p.month, p.year {
         font-size: 10px;
         line-height: 19px;
     }
@@ -2212,8 +2214,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .more_cat i.fa-plus {
         display: block;
     }
-    .more_cat.open i.fa-plus,
-    .more_cat i.fa-minus {
+    .more_cat.open i.fa-plus, .more_cat i.fa-minus {
         display: none;
     }
     .more_cat.open i.fa-minus {
@@ -2242,10 +2243,7 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     input.newsL_input::placeholder {
         text-align: center;
     }
-    section.about_us,
-    section.tab_section,
-    section.reports,
-    section.blog {
+    section.about_us, section.tab_section, section.reports, section.blog {
         padding: 5px 0;
     }
     .heading_after {
