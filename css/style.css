@@ -300,7 +300,7 @@ section.top_header {
     margin: 0 2px 0 0px;
 }
 .contact_details_col a:hover {
-    background-color: #ccc;
+    background-color: #6b74f7;
 }
 .contact_details_col a i {
     line-height: 30px;
@@ -1733,6 +1733,10 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     /*//Common css for tab devices both landscape view and portrate  view*/
 }
 @media (max-width: 991px) {
+    .flx_mod_center {
+        width: 100%;
+        padding: 10px;
+    }
     .navbar-header {
         float: none;
     }
