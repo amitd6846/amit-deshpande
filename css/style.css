@@ -1364,6 +1364,16 @@ i.menu_icon.remove {
 
 /*report page*/
 
+.flx_mod_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.flx_mod_center form {
+    width: 100%;
+}
 .rep_pg_wrpr>.flx_mod>.flx_col {
     width: 100%;
     padding: 0 8px;
