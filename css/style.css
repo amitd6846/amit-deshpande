@@ -885,6 +885,10 @@ section.reports>.container>.row {
     -webkit-box-pack: stretch;
     -ms-flex-pack: stretch;
     justify-content: stretch;
+    border: 1px solid rgba(107, 116, 247, 0.79);
+}
+section.blog .container>.row {
+    border: 1px solid rgba(107, 116, 247, 0.79);
 }
 .reports_wrpr {
     -webkit-box-orient: vertical;
