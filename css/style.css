@@ -22,7 +22,8 @@ body {
     font-style: normal;
     font-display: block;
 }
-[class^="deshu-"], [class*=" deshu-"] {
+[class^="deshu-"],
+[class*=" deshu-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'deshu' !important;
     speak: none;
@@ -166,7 +167,8 @@ a.animate_decoration {
     background-size: 0% 1px;
     transition: background-size .5s linear;
 }
-a.animate_decoration:hover, a.animate_decoration:focus {
+a.animate_decoration:hover,
+a.animate_decoration:focus {
     background-size: 100% 1px;
 }
 .mega_flx {
@@ -591,7 +593,8 @@ body {
     border-radius: 50px;
     margin: auto;
 }
-.about_icon .about_col:nth-child(1), .about_icon .about_col:nth-last-child(1) {
+.about_icon .about_col:nth-child(1),
+.about_icon .about_col:nth-last-child(1) {
     margin: 0 0 0 0;
 }
 .banner_heading_wrpr {
@@ -773,7 +776,8 @@ section.reports_header:after {
 .zero_gutters .col-md-9 {
     padding-left: 0;
 }
-.report_div h4, .report_details h4 {
+.report_div h4,
+.report_details h4 {
     font-size: 14px;
     line-height: 18px;
     font-weight: 700;
@@ -938,7 +942,8 @@ section.reports {
     border-radius: 8px;
     position: relative;
 }
-p.month, p.year {
+p.month,
+p.year {
     margin: 0;
     font-size: 10px;
     line-height: 20px;
@@ -1434,7 +1439,8 @@ p.radio {
     background-color: #012c73;
     color: #fff;
 }
-.radio_wrpr input[type=radio], .radio_wrpr input[type=radio]+span {
+.radio_wrpr input[type=radio],
+.radio_wrpr input[type=radio]+span {
     cursor: pointer;
 }
 .radio_wrpr input[type=radio]:focus {
@@ -1468,7 +1474,8 @@ button.btn_rprt:hover {
     background-color: #333;
     color: #fff;
 }
-ul.details li, ul.sub_details li {
+ul.details li,
+ul.sub_details li {
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -1522,7 +1529,8 @@ ul.sub_details li {
 .flx_form form.form_wrpr .form_div {
     margin: 0 0 10px 0;
 }
-.flx_form form.form_wrpr .form_div input, .flx_form form.form_wrpr .form_div textarea {
+.flx_form form.form_wrpr .form_div input,
+.flx_form form.form_wrpr .form_div textarea {
     border-radius: 0;
     box-shadow: none;
     height: auto;
@@ -1532,7 +1540,8 @@ ul.sub_details li {
     transition: all .4s linear;
     border: 1px solid #333;
 }
-.flx_form form.form_wrpr .form_div input::placeholder, .flx_form form.form_wrpr .form_div textarea::placeholder {
+.flx_form form.form_wrpr .form_div input::placeholder,
+.flx_form form.form_wrpr .form_div textarea::placeholder {
     color: #333;
     font-size: 12px;
 }
@@ -1605,8 +1614,13 @@ button.buy_now_btn:hover {
 button.buy_now_btn i {
     margin: 0 10px 0 0;
 }
-.more_cat i.fa-plus, .more_cat i.fa-minus {
+.more_cat i.fa-plus,
+.more_cat i.fa-minus {
     display: none;
+}
+.menu_flx ul.nav.navbar-nav li.dropdown.more_cat ul.dropdown-menu {
+    left: auto;
+    right: 0;
 }
 
 /*report page*/
@@ -1663,7 +1677,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
 .input_wpr {
     width: 100%;
 }
-.input_wpr input, .input_wpr textarea {
+.input_wpr input,
+.input_wpr textarea {
     width: 100%;
     height: auto;
     line-height: 40px;
@@ -1674,7 +1689,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     transition: all .4s linear;
     border: 1px solid #333;
 }
-.input_wpr input::placeholder, .input_wpr textarea::placeholder {
+.input_wpr input::placeholder,
+.input_wpr textarea::placeholder {
     font-size: 12px;
     color: #ababab;
 }
@@ -1725,7 +1741,10 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         line-height: 50px;
         font-weight: bold;
     }
-    section.about_us, section.tab_section, section.reports, section.blog {
+    section.about_us,
+    section.tab_section,
+    section.reports,
+    section.blog {
         padding: 10px 0 20px;
     }
 }
@@ -1981,7 +2000,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         font-weight: 400;
         line-height: 21px;
     }
-    .zero_gutters .col-md-3, .zero_gutters .col-md-9 {
+    .zero_gutters .col-md-3,
+    .zero_gutters .col-md-9 {
         padding: 0;
     }
     .footer_flx .flx_dCol {
@@ -2130,7 +2150,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .flx_form .form_wrpr {
         width: 100%;
     }
-    .flx_form .form_wrpr:nth-child(1), .flx_form .form_wrpr:nth-child(2) {
+    .flx_form .form_wrpr:nth-child(1),
+    .flx_form .form_wrpr:nth-child(2) {
         padding: 10px;
     }
     ul.flx_mod li {
@@ -2161,7 +2182,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .tab-content .carousel {
         min-height: 1px;
     }
-    .tab-content>.tab-pane>p, .tab-content>.tab-pane>ul li {
+    .tab-content>.tab-pane>p,
+    .tab-content>.tab-pane>ul li {
         text-align: justify;
         font-size: 13px;
         line-height: 20px;
@@ -2187,12 +2209,14 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         width: 50%;
         transition: all .4s linear;
     }
-    .report_div h4 a, .report_details h4 {
+    .report_div h4 a,
+    .report_details h4 {
         font-size: 13px;
         font-weight: 600;
         line-height: 18px;
     }
-    .report_details p, .report_div>p {
+    .report_details p,
+    .report_div>p {
         line-height: 18px;
         height: calc(18px * 2);
         overflow: hidden;
@@ -2203,7 +2227,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
         line-height: 30px;
         font-weight: 600;
     }
-    p.month, p.year {
+    p.month,
+    p.year {
         font-size: 10px;
         line-height: 19px;
     }
@@ -2228,7 +2253,8 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     .more_cat i.fa-plus {
         display: block;
     }
-    .more_cat.open i.fa-plus, .more_cat i.fa-minus {
+    .more_cat.open i.fa-plus,
+    .more_cat i.fa-minus {
         display: none;
     }
     .more_cat.open i.fa-minus {
@@ -2257,7 +2283,10 @@ section.get_in_touch .flx_mod .flx_col .emp_info a i {
     input.newsL_input::placeholder {
         text-align: center;
     }
-    section.about_us, section.tab_section, section.reports, section.blog {
+    section.about_us,
+    section.tab_section,
+    section.reports,
+    section.blog {
         padding: 5px 0;
     }
     .heading_after {
