@@ -1111,6 +1111,7 @@ section.reports .reports_wrpr .title_wrpr h4:after {
 button.rep_btn:hover {
     background-color: #fff;
     color: #6b74f7;
+    border: 1px solid #fff;
 }
 div#blog_slider a.carousel-control.left {
     left: auto;
