@@ -392,7 +392,8 @@ div#myNavbar {
     transition: all .4s linear;
 }
 .menu_flx ul.nav.navbar-nav li a:focus {
-    background-color: #49274a;
+    background-color: transparent;
+    outline: none;
 }
 .menu_flx ul.nav.navbar-nav li a {
     color: #f6f6f6;
@@ -406,10 +407,10 @@ div#myNavbar {
     -webkit-transition: all .4s linear;
     -o-transition: all .4s linear;
     transition: all .4s linear;
-    padding: 0;
+    padding: 0 5px;
 }
 .menu_flx ul.nav.navbar-nav li:hover {
-    background-color: #5e0661;
+    background-color: #6b74f7;
 }
 
 /*header end*/
@@ -1337,7 +1338,7 @@ section.copy_right p {
     left: 0;
 }
 .menu_flx ul.nav.navbar-nav li.dropdown.open a {
-    background-color: #49274a;
+    background-color: transparent;
 }
 .menu_flx ul.nav.navbar-nav li a i {
     line-height: 40px;
