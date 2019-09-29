@@ -891,7 +891,10 @@ div#blog_slider {
     margin: 0 0 15px;
 }
 section.blog .container>.row {
-    border: 1px solid rgba(107, 116, 247, 0.79);
+    /*    border: 1px solid rgba(107, 116, 247, 0.79);*/
+}
+section.blog .container>.row>div {
+    padding: 0;
 }
 .reports_wrpr {
     -webkit-box-orient: vertical;
@@ -1066,7 +1069,7 @@ div#blog_slider a.carousel-control {
 }
 section.blog .title_wrpr {
     width: 100%;
-    background-color: #012c73;
+    background-color: #fff;
     padding: 0 10px;
     margin: 0;
 }
@@ -1075,10 +1078,27 @@ section.blog .title_wrpr h4 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #fff;
-    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.49);
+    color: #080b42;
     padding: 0px 0;
     margin: 0;
+}
+button.rep_btn {
+    background-color: #6b74f7;
+    border: 1px solid #6b74f7;
+    color: #fff;
+    height: auto;
+    padding: 0 20px;
+    line-height: 40px;
+    border-radius: 4px;
+    margin: 20px 0;
+    transition: all .4s ease;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button.rep_btn:hover {
+    background-color: transparent;
 }
 div#blog_slider a.carousel-control.left {
     left: auto;
@@ -1094,10 +1114,13 @@ div#blog_slider a.carousel-control span.glyphicon {
     padding: 0;
     bottom: auto;
     right: auto;
+    color: #080b42;
 }
 div#blog_slider a.carousel-control span.glyphicon:before {
     font-size: 18px;
     line-height: 50px;
+    box-shadow: none;
+    text-shadow: none;
 }
 div#blog_slider a.carousel-control.right {
     right: 10px;
