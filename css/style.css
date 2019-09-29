@@ -1099,15 +1099,6 @@ button.rep_btn {
 section.reports .reports_wrpr .title_wrpr h4 {
     position: relative;
 }
-section.reports .reports_wrpr .title_wrpr h4:after {
-    content: '';
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100px;
-    height: 2px;
-    background-color: #fff;
-}
 button.rep_btn:hover {
     background-color: #fff;
     color: #6b74f7;
